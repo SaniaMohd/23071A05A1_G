@@ -1,0 +1,121 @@
+/* App.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5dc;
+    color: #023047;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    overflow: auto;
+    max-width: 900px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #023047;
+    margin-bottom: 1rem;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 8px 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  input {
+    width: 60%;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #219ebc;
+    color: white;
+    border: none;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #023047;
+    transform: scale(1.05);
+  }
+  
+  .bookmark-list {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+  
+  .bookmark-tile {
+    background-color: #8ecae6;
+    border-radius: 8px;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .bookmark-tile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bookmark-tile a {
+    color: #023047;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .tag {
+    background-color: #ffb703;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 6px;
+    font-size: 0.8rem;
+  }
+  
+  .export-button {
+    background-color: #fb8500;
+    color: white;
+    padding: 10px 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .export-button:hover {
+    transform: scale(1.05);
+    background-color: #ffb703;
+  }
+  
+  .bookmark-url {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-width: 100%;
+  }
+  
